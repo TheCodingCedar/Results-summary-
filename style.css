@@ -1,0 +1,166 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+@font-face {
+    font-family: hans ;
+    src: url(assets/fonts/static/HankenGrotesk-Bold.ttf);
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items:center;
+    font-family: hans;
+}
+.container{
+    display: flex;
+}
+.container-1{
+    background-color:hsla(241, 92%, 54%, 0.9);
+    text-align: center;
+    width:300px;
+    border-radius:15px;
+    color: white;
+    
+}
+.container-2{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    width:300px;
+    color:black;
+    box-shadow: 10px 10px hsla(224, 30%, 27%,0.1);
+    height: 480px;
+    margin-left: 0;
+}
+.score{
+    font-weight:bold;
+    font-size: xx-large;
+   
+}
+.circle{
+        background-image:linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+        width:100px;
+        height:100px;
+        margin-left: 30%;
+        padding: 10px;
+        margin-bottom: 60px;
+        border-radius: 50%;
+}
+.circle p{
+    opacity: 0.7;
+}
+.container-1 h4{
+    font-size: 1.2em;
+}
+.container-2 h5{
+    text-align: left;
+    padding-left: 30px;
+    font-size: 1.2em;
+   
+}
+.out-of{
+    color: hsla(224, 30%, 27%,0.6);
+}
+.p{
+    line-height: 1.6em;
+    font-size: 21px;
+    text-align: center;
+}
+.h4{
+    font-size:30px;
+}
+.box{
+    box-sizing: border-box;
+    display:flex;
+    width:250px;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 0  8px;
+    font-weight: 600;
+    box-shadow: 2px 3px 2px hsla(224, 30%, 27%,0.3);
+    
+}
+.number{
+    margin-left: auto;
+    color: black;
+
+}
+button{
+    background-color: hsl(224, 30%, 27%);
+    color:white;
+    padding:12px ;
+    width: 240px;
+    margin:18px;
+    border-radius: 35px;
+    font-size: 21px;
+
+}
+button:active{
+    background-color: hsla(241, 81%, 54%,0.9);
+}
+.box1{
+    background-color: hsla(0, 100%, 67%,0.1);
+    color: hsl(0, 100%, 67%);
+    
+}
+.box2{
+    background-color: hsla(39, 100%, 56%,0.1);
+    color: hsl(39, 100%, 56%);
+    
+}
+.box3{
+    background-color: hsla(166, 100%, 37%,0.1);
+    color: hsl(166, 100%, 37%);
+    
+}
+.box4{
+    background-color: hsla(234, 85%, 45%,0.1);
+    color: hsl(234, 85%, 45%);
+    
+}
+
+img{
+width:0.9em;
+}
+@media(max-width:600px){
+   .container{
+    display: block;
+
+
+   }
+   main{
+    display: block;
+    margin:auto 8%;
+   }
+   footer{
+    margin-top:100% ;
+
+   }
+  
+   .container-1{
+    padding: 10px;
+    z-index: 10;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    
+
+
+
+   }
+   body{
+    margin:0px;
+   }
+   .container-2{
+    padding: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+  }
+}
